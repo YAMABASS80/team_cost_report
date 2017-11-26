@@ -32,7 +32,7 @@ Super simple.
 
 `team_cost_report.py -k *Cost Allocation Tag Key* -v *Cost Allocation Tag Value*` 
 
-- Example 1:
+Example 1:
 
 Suppose that cost allocation tag key is **Project** and you work on **NewWebProject**, then.
 
@@ -43,7 +43,10 @@ this will generate CSV file named `cost_report_2017-11-1-2017-11-25_NewWebProjec
 By default, this script set start date as first day of the month and end date as the day you type the command. if you would like to generate report on other day, use option `-s` and `-e`.
 
 
+Example 2:
 
+Today is Nov 26, 2017, and suppose you want to know the cost report at 2 month ago ( Sep 1, 2017 - Sep 30, 2017) on your project, then
 
+`team_cost_report.py -k Project -v NewWebProject -s 2017-09-01 -e 2017-09-30`
 
-
+Make sure the date format is **yyyy-mm-dd**. 
