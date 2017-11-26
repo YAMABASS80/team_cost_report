@@ -30,7 +30,9 @@ https://aws.amazon.com/sdk-for-python/?nc1=h_ls
 
 Super simple.
 
-`team_cost_report.py -k **Cost Allocation Tag Key** -v **Cost Allocation Tag Value**` 
+```
+team_cost_report.py -k **Cost Allocation Tag Key** -v **Cost Allocation Tag Value**
+```
 
 Example 1:
 
