@@ -1,14 +1,14 @@
-AWS Team cost reporter
+# AWS Team cost reporter
 
 A Simple command line tool for AWS Cost report
 
-This is what it is
-
+## What is this?
 This tool is useful when multiple teams share one account and each team has an independent budget.
 In one account, by default, costs of all teams are summed and reported, so each team can not know
 the usage status and cost of their team.
 In order to deal with it, AWS provices cost allocation tag.
 http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html
+
 This tool uses cost allocation tags.
 
 This script repors each team cost and usage report with CSV format, using　AWS Cost Explorer API.
