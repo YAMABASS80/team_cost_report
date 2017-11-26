@@ -40,14 +40,14 @@ parser.add_argument(
     action='store',
     dest='start_date',
     default=dt.now().strftime("%Y-%m-01"),
-    help='cost report start date with yyyy/mm/dd format. Default = the first day of the month.'
+    help='cost report start date with yyyy-mm-dd format. Default = the first day of the month.'
 )
 parser.add_argument(
     '-e', '--end-date',
     action='store',
     dest='end_date',
     default=dt.now().strftime("%Y-%m-%d"),
-    help='cost report end date with yyyy/mm/dd format. Default = today.'
+    help='cost report end date with yyyy-mm-dd format. Default = today.'
 )
 
 args = parser.parse_args()
