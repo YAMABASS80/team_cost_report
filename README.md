@@ -31,3 +31,8 @@ https://aws.amazon.com/sdk-for-python/?nc1=h_ls
 Super simple.
 
 `team_cost_report.py -k "Cost Allocation Tag Key" -v "Cost Allocation Tag Value"` 
+
+Example:
+Suppose that cost allocation tag key is 'Project' and you work on 'NewWebProject', then.
+`team_cost_report.py -k Project -v NewWebProject 
+
