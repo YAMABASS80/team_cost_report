@@ -12,7 +12,13 @@ http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html
 This tool uses cost allocation tags.
 
 This script repors each team cost and usage report with CSV format, using　AWS Cost Explorer API.
-http://docs.aws.amazon.com/ja_jp/awsaccountbilling/latest/aboutv2/cost-explorer-api.html
+http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-explorer-api.html
 Because of CE API need to access AWS North Virginia Region, you have to have access to
 https://ce.us-east-1.amazonaws.com
 (Thus, will not work on private, non-internet accessible environment.)
+
+## Prerequests
+1. Set up cost allocation tag.
+http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html
+
+2. 
