@@ -19,6 +19,15 @@ https://ce.us-east-1.amazonaws.com
 
 ## Prerequests
 1. Set up cost allocation tag.
+
 http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html
 
-2. 
+2. Install boto3(aws sdk for python)
+
+https://aws.amazon.com/sdk-for-python/?nc1=h_ls
+
+## How to use
+
+Super simple.
+
+`team_cost_report.py -k "Cost Allocation Tag Key" -v "Cost Allocation Tag Value"` 
