@@ -35,7 +35,7 @@ Super simple.
 Example:
 Suppose that cost allocation tag key is **Project** and you work on **NewWebProject**, then.
 
-`team_cost_report.py -k Project -v NewWebProject`
+`team_cost_report.py -k **Project** -v **NewWebProject**`
 
 this will generate CSV file named `cost_report_2017-11-1-2017-11-25_NewWebProject.csv`
 
