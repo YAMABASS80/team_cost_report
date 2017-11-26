@@ -17,6 +17,22 @@ Because of CE API need to access AWS North Virginia Region, you have to have acc
 https://ce.us-east-1.amazonaws.com
 (Thus, will not work on private, non-internet accessible environment.)
 
+## Sample output
+
+You will get CSV format for each team.
+
+|SERVICE|USAGE_TYPE|BlendedCost|UnblendedCost|UsageQuantity
+--------|----------|-----------|-----------|-----------| 
+|Amazon Elastic Block Store|APN1-USW2-AWS-In-Bytes|0|0|0.033294501
+|Amazon Elastic Compute Cloud|- Compute	APN1-BoxUsage:t2.micro|28.06435236|29.7184|1776
+|Amazon Simple Storage Service|APN1-EU-AWS-Out-Bytes|3.332E-07|3.332E-07|3.7017E-06
+|Amazon Simple Storage Service|APN1-Requests-Tier1|0.0049444|0.0049444|1052
+|Amazon Simple Storage Service|APN1-TimedStorage-ByteHrs|0.421649407|0.421649407|16.86597629
+|Amazon Simple Storage Service|Requests-Tier2|0.0001472|0.0001472|368
+|AmazonCloudWatch|APN1-CW:MetricMonitorUsage|0|0|0.819444451
+
+
+
 ## Prerequests
 1. Set up cost allocation tag.
 
